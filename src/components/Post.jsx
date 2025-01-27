@@ -10,7 +10,7 @@ const Post = () => {
     <div className='h-full w-[55%] flex flex-col justify-between border-r'>
       {/* Navbar for main */}
       <div className='main_div p-2.5 border-b'>
-        <h1 className='text-3xl font-bold'>Write Post</h1>
+        <h1 className='!text-2xl font-bold'>Write Post</h1>
         <div className='flex flex-row space-x-4'>
           <button className='btn'>
             <span className='text-xl'><PiSpeedometerLight /></span>

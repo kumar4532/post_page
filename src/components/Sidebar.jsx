@@ -13,7 +13,7 @@ const Sidebar = () => {
     return (
         <div className="w-72 border-r h-full p-4 space-y-4 flex flex-col justify-between">
             <nav className="space-y-4 mt-8">
-                <button className="w-full flex items-center justify-center my-6 text-xl text-white rounded-4xl px-2 py-3 bg-blue-500 hover:bg-blue-400" variant="default">
+                <button className="w-full flex items-center justify-center my-6 !text-lg text-white rounded-4xl px-2 py-3 bg-blue-500 hover:bg-blue-400" variant="default">
                     <span className='mr-3'><BsPencilSquare /></span>
                     Write Post
                 </button>
