@@ -10,7 +10,7 @@ const Post = () => {
     <div className='h-full w-[55%] flex flex-col justify-between border-r'>
       {/* Navbar for main */}
       <div className='main_div p-2.5 border-b'>
-        <h1 className='!text-2xl font-bold'>Write Post</h1>
+        <h1 className='text-2xl font-bold'>Write Post</h1>
         <div className='flex flex-row space-x-4'>
           <button className='btn'>
             <span className='text-lg'><PiSpeedometerLight /></span>
@@ -26,8 +26,8 @@ const Post = () => {
       </div>
 
       {/* Footer for main */}
-      <div className='main_div border-t pt-4 px-2 mb-6'>
-        <button className='border p-2 rounded-2xl text-base hover:cursor-pointer'>Save as a draft</button>
+      <div className='main_div border-t pt-2 px-2 mb-6'>
+        <button className='border p-2 rounded-2xl text-sm hover:cursor-pointer'>Save as a draft</button>
         <div className='flex flex-row space-x-2'>
           <button className='btn'>
             <span><RiCalendarScheduleLine /></span>
