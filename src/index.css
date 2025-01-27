@@ -7,7 +7,7 @@
 
 @layer utilities {
     .sidebar_opt {
-        @apply w-full flex space-x-5 justify-start items-center hover:cursor-pointer
+        @apply w-full text-base flex space-x-5 justify-start items-center hover:cursor-pointer
     }
 
     .icons {

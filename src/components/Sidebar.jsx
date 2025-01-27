@@ -17,41 +17,41 @@ const Sidebar = () => {
                     <span className='mr-3'><BsPencilSquare /></span>
                     Write Post
                 </button>
-                <button variant="ghost" className="sidebar_opt">
+                <button className="sidebar_opt">
                     <span className='icons'><BsStars /></span>
                     <span>Post Generator</span>
                 </button>
-                <button variant="ghost" className="sidebar_opt">
+                <button className="sidebar_opt">
                     <span className='icons'><HiOutlineLightBulb /></span>
                     <span>Ideas Generator</span>
                 </button>
-                <button variant="ghost" className="sidebar_opt">
+                <button className="sidebar_opt">
                     <span className='icons'><BiCarousel /></span>
                     <span>Carousel Maker</span>
                 </button>
-                <button variant="ghost" className="sidebar_opt">
+                <button className="sidebar_opt">
                     <span className='icons'><LuFile /></span>
                     <span>Posts</span>
                 </button>
-                <button variant="ghost" className="sidebar_opt">
+                <button className="sidebar_opt">
                     <span className='icons'><IoTrendingUp /></span>
                     <span>Content Inspiration</span>
                 </button>
-                <button variant="ghost" className="sidebar_opt">
+                <button className="sidebar_opt">
                     <span className='icons'><IoBookOutline /></span>
                     <span>Posts for you</span>
                 </button>
-                <button variant="ghost" className="sidebar_opt">
+                <button className="sidebar_opt">
                     <span className='icons'><RiCalendarScheduleLine /></span>
                     <span>Schedule</span>
                 </button>
             </nav>
             <div className='space-y-4'>
-                <button variant="ghost" className="sidebar_opt">
+                <button className="sidebar_opt">
                     <span className='icons'><GiSettingsKnobs /></span>
                     <span>Prefernces</span>
                 </button>
-                <button variant="ghost" className="sidebar_opt">
+                <button className="sidebar_opt">
                     <span className='icons'><BiMailSend /></span>
                     <span>Feature Request</span>
                 </button>
