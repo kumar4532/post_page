@@ -61,8 +61,8 @@ const Sidebar = () => {
                         <span>1.2k/50k</span>
                     </div>
                     <LinearProgress variant="determinate" value={80} />
-                    <span className='text-sm text-gray-500'>Monthly usage resets in 20 days</span>
-                    <button className='w-full border p-2 mt-2 rounded-xl flex justify-center items-center'>
+                    <span className='!text-sm text-gray-500'>Monthly usage resets in 20 days</span>
+                    <button className='w-full border !p-1 mt-2 rounded-xl flex justify-center items-center'>
                         <span><HiOutlineBolt /></span>
                         <span>Upgrade Plan</span>
                     </button>
