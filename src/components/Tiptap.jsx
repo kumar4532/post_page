@@ -88,7 +88,7 @@ const Tiptap = () => {
             )}
 
             <div className="mt-8 flex flex-row justify-between">
-                <span>Last saved at Oct 4, 2023, 10:34pm</span>
+                <span className="text-sm">Last saved at Oct 4, 2023, 10:34pm</span>
                 <span>{editor.storage.characterCount.characters()} Characters</span>
             </div>
         </div>

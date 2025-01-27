@@ -13,7 +13,7 @@ const Post = () => {
         <h1 className='!text-2xl font-bold'>Write Post</h1>
         <div className='flex flex-row space-x-4'>
           <button className='btn'>
-            <span className='text-xl'><PiSpeedometerLight /></span>
+            <span className='text-lg'><PiSpeedometerLight /></span>
             <span>Check Score</span>
           </button>
           <div className='border-r'></div>
