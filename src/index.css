@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
-* {
+body {
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 @layer utilities {
